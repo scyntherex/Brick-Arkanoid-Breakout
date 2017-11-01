@@ -53,7 +53,7 @@ public class Board extends JPanel implements Commons {
         int k = 0;
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 6; j++) {
-                bricks[k] = new Brick(j * 40 + 30, i * 10 + 50);
+                bricks[k] = new Brick(j * 80 + 40, i * 80 + 50);
                 k++;
             }
         }
