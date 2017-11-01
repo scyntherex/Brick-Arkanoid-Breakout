@@ -10,7 +10,7 @@ public class Brick extends Sprite {
 	        this.x = x;
 	        this.y = y;
 
-	        ImageIcon ii = new ImageIcon("src/images/block1.jpg");
+	        ImageIcon ii = new ImageIcon("src/images/brick_new.jpg");
 	        image = ii.getImage();
 
 	        i_width = image.getWidth(null);
