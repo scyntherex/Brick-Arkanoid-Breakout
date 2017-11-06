@@ -14,6 +14,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.JPanel;
 
+@SuppressWarnings("serial")
 public class Board extends JPanel implements Commons {
 	private Timer timer;
     private String message = "Game Over";

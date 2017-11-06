@@ -3,6 +3,7 @@ package brick;
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 
+@SuppressWarnings("serial")
 public class Breakout extends JFrame{
 	
 	public Breakout() {
